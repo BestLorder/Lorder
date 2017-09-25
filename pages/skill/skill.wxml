@@ -1,0 +1,15 @@
+<view class='container'>
+    <block wx:for='{{knowledge}}' wx:key='{{id}}'> 
+        <view class="codelist"  >
+            <view class='codelist_h2'>{{item.category}}</view>
+            <block wx:for='{{item.content}}' wx:key='{{name}}'> 
+                <view class="codelist_a item-top">
+                    <view class='item-top_h4'>{{item.name}}</view>
+                    <image class="item-top_codeicon" src="{{item.image}}" alt="图标"></image> 
+                    <view class='item-top_strong'>{{item.description}}</view>
+                    <view class='item-top_introduce'>{{item.introduce}}</view>
+                </view>
+            </block> 
+        </view>
+    </block> 
+</view>

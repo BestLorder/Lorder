@@ -1,0 +1,39 @@
+{
+  "pages":[
+    "pages/skill/skill",
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "backgroundColor":"white",
+    "borderStyle": "black",
+    "list": [
+        {
+            "pagePath": "pages/skill/skill",
+            "text": "技能",
+            "iconPath": "images/skill.png",
+            "selectedIconPath": "images/skill1.png"
+        },
+        {
+            "pagePath": "pages/index/index",
+            "text": "常识",
+            "iconPath": "images/commonSense.png",
+            "selectedIconPath": "images/commonSense1.png"
+        },
+        {
+            "pagePath": "pages/index/index",
+            "text": "个人",
+            "iconPath": "images/user.png",
+            "selectedIconPath": "images/user1.png"
+        }
+    ],
+    "color": "#cdcdcd",
+    "selectedColor": "#707070"
+}
+}
